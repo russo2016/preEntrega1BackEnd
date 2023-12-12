@@ -38,7 +38,6 @@ export class ProductManager {
         code,
         stock,
       };
-      console.log(newProduct)
       this.products.push(newProduct);
       try {
         await utils.writeFile(this.path, this.products);
