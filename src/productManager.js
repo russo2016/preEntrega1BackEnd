@@ -12,7 +12,6 @@ export class ProductManager {
       title == undefined ||
       description == undefined ||
       price == undefined ||
-      thumbnail == undefined ||
       code == undefined ||
       stock == undefined
     ) {
